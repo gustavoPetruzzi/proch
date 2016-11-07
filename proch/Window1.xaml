@@ -5,18 +5,17 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:proch"
         mc:Ignorable="d"
-        Title="Window1" Height="305" Width="255" Icon="/proch;component/Images/check.png" Background="#FFDFF6EE">
-    <Grid Height="239">
-        <Label x:Name="lblImporteFinal" Content="Importe" HorizontalAlignment="Left" Margin="40,23,0,0" VerticalAlignment="Top" FontSize="15" />
-        <Label x:Name="lblImporteFinal1" Content="Label" HorizontalAlignment="Left" Margin="155,23,0,0" VerticalAlignment="Top" FontSize="15" />
-        <Label x:Name="lblInteresFinal" Content="Interes" HorizontalAlignment="Left" Margin="40,68,0,0" VerticalAlignment="Top" FontSize="15" />
-        <Label x:Name="lblInteresFinal1" Content="Label" HorizontalAlignment="Left" Margin="155,68,0,0" VerticalAlignment="Top" FontSize="15" />
-        <Label x:Name="lblGastosFinal" Content="Gastos" HorizontalAlignment="Left" Margin="40,108,0,0" VerticalAlignment="Top" FontSize="15" />
-        <Label x:Name="lblGastosFinal1" Content="Label" HorizontalAlignment="Left" Margin="155,108,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.986,-0.621" FontSize="15" />
-        <Label x:Name="lblIvaFinal" Content="Iva" HorizontalAlignment="Left" Margin="40,147,0,0" VerticalAlignment="Top" FontSize="15" />
-        <Label x:Name="lblIvaFinal1" Content="Label" HorizontalAlignment="Left" Margin="155,147,0,0" VerticalAlignment="Top" FontSize="15" />
-        <Label x:Name="lblFinal" Content="Final" HorizontalAlignment="Left" Margin="40,181,0,0" VerticalAlignment="Top" FontSize="15" />
-        <Label x:Name="lblFinal1" Content="Label" HorizontalAlignment="Left" Margin="155,181,0,0" VerticalAlignment="Top" FontSize="15" />
-
+        Title="Proch" Height="300" Width="300" Background="{x:Null}">
+    <Grid Background="#FFD5F3E9">
+        <Label x:Name="label" Content="Importe" HorizontalAlignment="Left" Margin="29,43,0,0" VerticalAlignment="Top" Width="112" FontSize="20"/>
+        <Label x:Name="label1" Content="Intereses" HorizontalAlignment="Left" Margin="29,85,0,0" VerticalAlignment="Top" FontSize="20"/>
+        <Label x:Name="label2" Content="Gastos" HorizontalAlignment="Left" Margin="29,127,0,0" VerticalAlignment="Top" FontSize="20"/>
+        <Label x:Name="label3" Content="Iva" HorizontalAlignment="Left" Margin="29,170,0,0" VerticalAlignment="Top" FontSize="20"/>
+        <Label x:Name="label4" Content="Final" HorizontalAlignment="Left" Margin="29,212,0,0" VerticalAlignment="Top" FontSize="20" />
+        <Label x:Name="Importe" Content="0" HorizontalAlignment="Left" Margin="168,43,0,0" VerticalAlignment="Top" FontSize="20"/>
+        <Label x:Name="Intereses" Content="0" HorizontalAlignment="Left" Margin="168,85,0,0" VerticalAlignment="Top" FontSize="20"/>
+        <Label x:Name="Gastos" Content="0" HorizontalAlignment="Left" Margin="168,127,0,0" VerticalAlignment="Top" FontSize="20"/>
+        <Label x:Name="Iva" Content="0" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="168,170,0,0" FontSize="20"/>
+        <Label x:Name="Final" Content="0" HorizontalAlignment="Left" Margin="168,212,0,0" VerticalAlignment="Top" FontSize="20"/>
     </Grid>
 </Window>

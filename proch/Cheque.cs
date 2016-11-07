@@ -96,10 +96,10 @@ namespace proch
         }
         #endregion
         #region Sobrecarga Operadores
-        public static Boolean operator +(Cheque[] cheques, Cheque cheque2)
+        public static Boolean operator +(List<Cheque> cheques, Cheque cheque2)
         {
             Boolean retorno = false;
-            for (int i = 0; i < cheques.Length; i++)
+            for (int i = 0; i < cheques.Count; i++)
             {
                 if(object.Equals(cheques[i], null))
                 {

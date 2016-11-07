@@ -18,21 +18,14 @@ namespace proch
     /// </summary>
     public partial class Window1 : Window
     {
-        public Window1()
+        public Window1(Cheque cheque)
         {
             InitializeComponent();
+            Importe.Content = cheque.importe;
+            Intereses.Content = cheque.interes;
+            Gastos.Content = cheque.gastos;
+            Iva.Content = cheque.iva;
+            Final.Content = cheque.resultado;
         }
-
-        public Window1(Cheque chequeAmostrar)
-        {
-            InitializeComponent();
-            lblImporteFinal1.Content = string.Format("{0:.00}",chequeAmostrar.importe);
-            lblInteresFinal1.Content = string.Format("{0:.00}",chequeAmostrar.interes);
-            lblGastosFinal1.Content = string.Format("{0:.00}",chequeAmostrar.gastos);
-            lblIvaFinal1.Content = string.Format("{0:.00}",chequeAmostrar.iva);
-            lblFinal1.Content = string.Format("{0:.00}", chequeAmostrar.resultado);
-        }
-
-        
     }
 }
