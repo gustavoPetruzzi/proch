@@ -151,33 +151,41 @@ namespace proch {
             switch (connectionId)
             {
             case 1:
-            this.label = ((System.Windows.Controls.Label)(target));
+            
+            #line 8 "..\..\..\Window1.xaml"
+            ((proch.Window1)(target)).KeyDown += new System.Windows.Input.KeyEventHandler(this.handlerKeys);
+            
+            #line default
+            #line hidden
             return;
             case 2:
-            this.label1 = ((System.Windows.Controls.Label)(target));
+            this.label = ((System.Windows.Controls.Label)(target));
             return;
             case 3:
-            this.label2 = ((System.Windows.Controls.Label)(target));
+            this.label1 = ((System.Windows.Controls.Label)(target));
             return;
             case 4:
-            this.label3 = ((System.Windows.Controls.Label)(target));
+            this.label2 = ((System.Windows.Controls.Label)(target));
             return;
             case 5:
-            this.label4 = ((System.Windows.Controls.Label)(target));
+            this.label3 = ((System.Windows.Controls.Label)(target));
             return;
             case 6:
-            this.Importe = ((System.Windows.Controls.Label)(target));
+            this.label4 = ((System.Windows.Controls.Label)(target));
             return;
             case 7:
-            this.Intereses = ((System.Windows.Controls.Label)(target));
+            this.Importe = ((System.Windows.Controls.Label)(target));
             return;
             case 8:
-            this.Gastos = ((System.Windows.Controls.Label)(target));
+            this.Intereses = ((System.Windows.Controls.Label)(target));
             return;
             case 9:
-            this.Iva = ((System.Windows.Controls.Label)(target));
+            this.Gastos = ((System.Windows.Controls.Label)(target));
             return;
             case 10:
+            this.Iva = ((System.Windows.Controls.Label)(target));
+            return;
+            case 11:
             this.Final = ((System.Windows.Controls.Label)(target));
             return;
             }

@@ -27,5 +27,16 @@ namespace proch
             Iva.Content = cheque.iva;
             Final.Content = cheque.resultado;
         }
+        private void CloseWin(object sender, KeyEventArgs e)
+        {
+            if (e.Key == Key.Escape)
+                this.Close();
+        }
+
+        private void handlerKeys(object sender, KeyEventArgs e)
+        {
+            if (e.Key == Key.Escape)
+                this.Close();
+        }
     }
 }

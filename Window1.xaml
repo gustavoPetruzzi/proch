@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:proch"
         mc:Ignorable="d"
-        Title="Proch" Height="300" Width="300" Background="{x:Null}">
+        Title="Proch" Height="300" Width="300" Background="{x:Null}" KeyDown="handlerKeys">
     <Grid Background="#FFD5F3E9">
         <Label x:Name="label" Content="Importe" HorizontalAlignment="Left" Margin="29,43,0,0" VerticalAlignment="Top" Width="112" FontSize="20"/>
         <Label x:Name="label1" Content="Intereses" HorizontalAlignment="Left" Margin="29,85,0,0" VerticalAlignment="Top" FontSize="20"/>

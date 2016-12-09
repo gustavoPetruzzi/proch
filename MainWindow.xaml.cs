@@ -84,5 +84,10 @@ namespace proch
         }
         #endregion
 
+        private void handleKey(object sender, KeyEventArgs e)
+        {
+            if (e.Key == Key.Escape)
+                this.Close();
+        }
     }
 }
