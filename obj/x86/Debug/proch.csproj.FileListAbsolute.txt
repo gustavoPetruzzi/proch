@@ -44,3 +44,19 @@ C:\Users\Gustavo\Desktop\Prog\c#\proch\obj\x86\Debug\Window1.baml
 C:\Users\Gustavo\Desktop\Prog\c#\proch\obj\x86\Debug\proch.g.resources
 C:\Users\Gustavo\Desktop\Prog\c#\proch\obj\x86\Debug\proch.Properties.Resources.resources
 C:\Users\Gustavo\Desktop\Prog\c#\proch\obj\x86\Debug\proch.csproj.GenerateResource.Cache
+I:\Documents and Settings\Gustavo\Escritorio\C#\proch\obj\x86\Debug\proch.exe
+I:\Documents and Settings\Gustavo\Escritorio\C#\proch\obj\x86\Debug\proch.pdb
+I:\Documents and Settings\Gustavo\Escritorio\C#\proch\bin\Debug\proch.exe
+I:\Documents and Settings\Gustavo\Escritorio\C#\proch\bin\Debug\proch.pdb
+I:\Documents and Settings\Gustavo\Escritorio\C#\proch\obj\x86\Debug\ResolveAssemblyReference.cache
+I:\Documents and Settings\Gustavo\Escritorio\C#\proch\obj\x86\Debug\MainWindow.baml
+I:\Documents and Settings\Gustavo\Escritorio\C#\proch\obj\x86\Debug\MainWindow.g.cs
+I:\Documents and Settings\Gustavo\Escritorio\C#\proch\obj\x86\Debug\Window1.g.cs
+I:\Documents and Settings\Gustavo\Escritorio\C#\proch\obj\x86\Debug\App.g.cs
+I:\Documents and Settings\Gustavo\Escritorio\C#\proch\obj\x86\Debug\proch_MarkupCompile.cache
+I:\Documents and Settings\Gustavo\Escritorio\C#\proch\obj\x86\Debug\proch_MarkupCompile.lref
+I:\Documents and Settings\Gustavo\Escritorio\C#\proch\obj\x86\Debug\Window1.baml
+I:\Documents and Settings\Gustavo\Escritorio\C#\proch\obj\x86\Debug\proch.g.resources
+I:\Documents and Settings\Gustavo\Escritorio\C#\proch\obj\x86\Debug\proch.Properties.Resources.resources
+I:\Documents and Settings\Gustavo\Escritorio\C#\proch\obj\x86\Debug\GenerateResource.read.1.tlog
+I:\Documents and Settings\Gustavo\Escritorio\C#\proch\obj\x86\Debug\GenerateResource.write.1.tlog

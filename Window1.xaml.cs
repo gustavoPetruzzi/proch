@@ -21,16 +21,11 @@ namespace proch
         public Window1(Cheque cheque)
         {
             InitializeComponent();
-            Importe.Content = cheque.importe;
-            Intereses.Content = cheque.interes;
-            Gastos.Content = cheque.gastos;
-            Iva.Content = cheque.iva;
-            Final.Content = cheque.resultado;
-        }
-        private void CloseWin(object sender, KeyEventArgs e)
-        {
-            if (e.Key == Key.Escape)
-                this.Close();
+            Importe.Content = string.Format("{0:.00}", cheque.importe);
+            Intereses.Content = string.Format("{0:.00}", cheque.interes);
+            Gastos.Content = string.Format("{0:.00}", cheque.gastos);
+            Iva.Content = string.Format("{0:.00}", cheque.iva);
+            Final.Content = string.Format("{0:.00}", cheque.resultado);
         }
 
         private void handlerKeys(object sender, KeyEventArgs e)

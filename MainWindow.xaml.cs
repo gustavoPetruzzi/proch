@@ -79,7 +79,7 @@ namespace proch
 
         private void btnLimpiar_Click(object sender, RoutedEventArgs e)
         {
-
+            this.cantidad.Content = 0;
             cheques.Clear();
         }
         #endregion
@@ -89,5 +89,12 @@ namespace proch
             if (e.Key == Key.Escape)
                 this.Close();
         }
+
+        private void TextBox_gotFocus(object sender, RoutedEventArgs e)
+        {
+            (sender as TextBox).SelectAll();
+        }
+
+        
     }
 }
