@@ -1,0 +1,16 @@
+I:\Documents and Settings\Gustavo\Escritorio\C#\proch\bin\Release\proch.exe
+I:\Documents and Settings\Gustavo\Escritorio\C#\proch\bin\Release\proch.pdb
+I:\Documents and Settings\Gustavo\Escritorio\C#\proch\obj\x86\Release\ResolveAssemblyReference.cache
+I:\Documents and Settings\Gustavo\Escritorio\C#\proch\obj\x86\Release\MainWindow.baml
+I:\Documents and Settings\Gustavo\Escritorio\C#\proch\obj\x86\Release\MainWindow.g.cs
+I:\Documents and Settings\Gustavo\Escritorio\C#\proch\obj\x86\Release\Window1.g.cs
+I:\Documents and Settings\Gustavo\Escritorio\C#\proch\obj\x86\Release\App.g.cs
+I:\Documents and Settings\Gustavo\Escritorio\C#\proch\obj\x86\Release\proch_MarkupCompile.cache
+I:\Documents and Settings\Gustavo\Escritorio\C#\proch\obj\x86\Release\proch_MarkupCompile.lref
+I:\Documents and Settings\Gustavo\Escritorio\C#\proch\obj\x86\Release\Window1.baml
+I:\Documents and Settings\Gustavo\Escritorio\C#\proch\obj\x86\Release\proch.g.resources
+I:\Documents and Settings\Gustavo\Escritorio\C#\proch\obj\x86\Release\proch.Properties.Resources.resources
+I:\Documents and Settings\Gustavo\Escritorio\C#\proch\obj\x86\Release\GenerateResource.read.1.tlog
+I:\Documents and Settings\Gustavo\Escritorio\C#\proch\obj\x86\Release\GenerateResource.write.1.tlog
+I:\Documents and Settings\Gustavo\Escritorio\C#\proch\obj\x86\Release\proch.exe
+I:\Documents and Settings\Gustavo\Escritorio\C#\proch\obj\x86\Release\proch.pdb
