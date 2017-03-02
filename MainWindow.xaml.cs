@@ -86,8 +86,8 @@ namespace proch
 
         private void handleKey(object sender, KeyEventArgs e)
         {
-            if (e.Key == Key.Escape)
-                this.Close();
+            if ( e.Key == Key.L && Keyboard.IsKeyDown(Key.LeftCtrl ))
+                btnLimpiar_Click(sender, new RoutedEventArgs() );
         }
 
         private void TextBox_gotFocus(object sender, RoutedEventArgs e)

@@ -60,3 +60,19 @@ I:\Documents and Settings\Gustavo\Escritorio\C#\proch\obj\x86\Debug\proch.g.reso
 I:\Documents and Settings\Gustavo\Escritorio\C#\proch\obj\x86\Debug\proch.Properties.Resources.resources
 I:\Documents and Settings\Gustavo\Escritorio\C#\proch\obj\x86\Debug\GenerateResource.read.1.tlog
 I:\Documents and Settings\Gustavo\Escritorio\C#\proch\obj\x86\Debug\GenerateResource.write.1.tlog
+P:\proch\proch\obj\x86\Debug\proch.exe
+P:\proch\proch\obj\x86\Debug\proch.pdb
+P:\proch\proch\bin\Debug\proch.exe
+P:\proch\proch\bin\Debug\proch.pdb
+P:\proch\proch\obj\x86\Debug\ResolveAssemblyReference.cache
+P:\proch\proch\obj\x86\Debug\MainWindow.baml
+P:\proch\proch\obj\x86\Debug\MainWindow.g.cs
+P:\proch\proch\obj\x86\Debug\Window1.g.cs
+P:\proch\proch\obj\x86\Debug\App.g.cs
+P:\proch\proch\obj\x86\Debug\proch_MarkupCompile.cache
+P:\proch\proch\obj\x86\Debug\proch_MarkupCompile.lref
+P:\proch\proch\obj\x86\Debug\Window1.baml
+P:\proch\proch\obj\x86\Debug\proch.g.resources
+P:\proch\proch\obj\x86\Debug\proch.Properties.Resources.resources
+P:\proch\proch\obj\x86\Debug\GenerateResource.read.1.tlog
+P:\proch\proch\obj\x86\Debug\GenerateResource.write.1.tlog
