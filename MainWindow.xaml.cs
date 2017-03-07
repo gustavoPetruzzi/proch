@@ -65,7 +65,7 @@ namespace proch
             }
             if(chequeCargado)
             {
-                Window Resultado = new Window1( chequeFinal);
+                Window Resultado = new Window1( chequeFinal, cheques);
 
                 Resultado.ShowDialog();
 

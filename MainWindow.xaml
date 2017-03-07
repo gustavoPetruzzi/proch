@@ -1,7 +1,7 @@
 ﻿<Window x:Class="proch.MainWindow"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-        Title="Proch" Height="308" Width="308" Icon="/proch;component/Images/check.png" Background="#FFD5F3E9" KeyDown="handleKey">
+        Title="Proch" Height="308" Width="308" Icon="/proch;component/Images/check.png" Background="#FFD5F3E9">
     <Grid Height="376" Width="321" Background="#FFD5F3E9">
         <Label Content="Importe" Height="28" HorizontalAlignment="Left" Margin="45,49,0,0" Name="lblImporte" VerticalAlignment="Top" Width="58" />
         <TextBox Height="23" HorizontalAlignment="Left" Margin="131,54,0,0" Name="txtImporte" VerticalAlignment="Top" Width="120" />

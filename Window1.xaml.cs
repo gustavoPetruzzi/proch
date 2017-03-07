@@ -18,20 +18,31 @@ namespace proch
     /// </summary>
     public partial class Window1 : Window
     {
-        public Window1(Cheque cheque)
+        List<Cheque> chequesGrid;
+        public Window1(Cheque cheque, List<Cheque> cheques)
         {
             InitializeComponent();
+            this.chequesGrid = cheques;
             Importe.Content = string.Format("{0:.00}", cheque.importe);
             Intereses.Content = string.Format("{0:.00}", cheque.interes);
             Gastos.Content = string.Format("{0:.00}", cheque.gastos);
             Iva.Content = string.Format("{0:.00}", cheque.iva);
             Final.Content = string.Format("{0:.00}", cheque.resultado);
         }
-
+        /*
+         * Agregar al xaml, en la propiedad keydown, el valor handlerKeys para que tome el valor
+        */
         private void handlerKeys(object sender, KeyEventArgs e)
         {
             if (e.Key == Key.Escape)
                 this.Close();
+        }
+
+        private void mostrarCheques_Click(object sender, RoutedEventArgs e)
+        {
+            Window dataGridCheques = new dataCheque(chequesGrid);
+            dataGridCheques.ShowDialog();
+            
         }
     }
 }

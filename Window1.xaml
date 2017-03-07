@@ -5,8 +5,8 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:proch"
         mc:Ignorable="d"
-        Title="Proch" Height="300" Width="300" Background="{x:Null}" KeyDown="handlerKeys">
-    <Grid Background="#FFD5F3E9">
+        Title="Proch" Height="349.333" Width="252" Background="{x:Null}" KeyDown="handlerKeys">
+    <Grid Background="#FFD5F3E9" Margin="-11,0,2,0">
         <Label x:Name="label" Content="Importe" HorizontalAlignment="Left" Margin="29,43,0,0" VerticalAlignment="Top" Width="112" FontSize="20"/>
         <Label x:Name="label1" Content="Intereses" HorizontalAlignment="Left" Margin="29,85,0,0" VerticalAlignment="Top" FontSize="20"/>
         <Label x:Name="label2" Content="Gastos" HorizontalAlignment="Left" Margin="29,127,0,0" VerticalAlignment="Top" FontSize="20"/>
@@ -17,5 +17,6 @@
         <Label x:Name="Gastos" Content="0" HorizontalAlignment="Left" Margin="168,127,0,0" VerticalAlignment="Top" FontSize="20"/>
         <Label x:Name="Iva" Content="0" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="168,170,0,0" FontSize="20"/>
         <Label x:Name="Final" Content="0" HorizontalAlignment="Left" Margin="168,212,0,0" VerticalAlignment="Top" FontSize="20"/>
+        <Button x:Name="mostrarCheques" Content="Mostrar " HorizontalAlignment="Left" Margin="114,270,0,0" VerticalAlignment="Top" Width="75" Click="mostrarCheques_Click"/>
     </Grid>
 </Window>
